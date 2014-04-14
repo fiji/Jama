@@ -26,6 +26,11 @@
 		</plugins>
 	</build>
 
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/Jama/</url>
+	</ciManagement>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Jama</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Jama</developerConnection>
